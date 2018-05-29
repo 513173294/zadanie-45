@@ -46,25 +46,25 @@ class MathQuiz2 {
 
     }
 
-//    public int quest1() {
-//        if (question1() == true) {
-//            return 1;
-//        } else return 0;
-//
-//    }
-//
-//    public int quest2() {
-//        if (question2() == true) {
-//            return 1;
-//        } else return 0;
-//    }
-//
-//    public int quest3() {
-//        if (question3() == true) {
-//            return 1;
-//        } else return 0;
-//
-//    }
+    public int quest1() {
+        if (question1() == true) {
+            return 1;
+        } else return 0;
+
+    }
+
+    public int quest2(){
+        if (question2() == true) {
+            return 1;
+        } else return 0;
+    }
+
+    public int quest3() {
+        if (question3() == true) {
+            return 1;
+        } else return 0;
+
+    }
 
 
 //    int quest3() {
@@ -76,4 +76,4 @@ class MathQuiz2 {
 //        System.out.println("wynik: " + sum + "/3");
 //    }s
 
-}
+    }

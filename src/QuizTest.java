@@ -10,18 +10,52 @@ public class QuizTest {
 //        boolean odpowiedz1 = mathQuiz.question1();
 //        boolean odpowiedz2 = mathQuiz.question2();
 //        boolean odpowiedz3 = mathQuiz.question3();
-//       System.out.println(odpowiedz1);
-
-       nowa nowa = new nowa();
-
-
-      int a = nowa.quest1(mathQuiz);
-       int b = nowa.quest2(mathQuiz);
-       int  c = nowa.quest3(mathQuiz);
-        System.out.println(a + b + " Punkty");
-
+//        System.out.println(odpowiedz1);
 //        System.out.println(odpowiedz2);
 //        System.out.println(odpowiedz3);
+//        Punkty pkt = new Punkty();
+//       int punkty = pkt.quest1(mathQuiz);
+        int a = mathQuiz.quest1();
+        int b = mathQuiz.quest2();
+        int c = mathQuiz.quest3();
+        int suma = a + b + c;
+        System.out.println("zdobyłeś: " + suma + " pkt");
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+//
+
+//        if (odpowiedz1 == true) {
+//            punkty = punkty + 1;
+//        }
+//        if (odpowiedz2 == true) {
+//            punkty = punkty + 1;
+//        }
+//        if (odpowiedz3 == true) {
+//            punkty = punkty + 1;
+//        }
+//        if (punkty < 1) {
+//            System.out.println("lepiej poćwicz możenie");
+//        }
+//        if (punkty == 1) {
+//            System.out.println("zdobyłeś 1 punkt");
+//        }
+//        if (punkty == 2) {
+//            System.out.println("zdobyłeś 2 punkty");
+//        }
+//        if (punkty > 2) {
+//            System.out.println("Brawo zdobyłeś 3 punkty");
+//            nowa nowa = new nowa();
+
+
+//        int a = nowa.quest1(mathQuiz);
+//        int b = nowa.quest2(mathQuiz);
+//        int c = nowa.quest3(mathQuiz);
+//        System.out.println(a + b + c + " Punkty");
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println(c);
+
 
 //        public int quest1() {
 //        if (mathQuiz.question1() == true) {
@@ -54,3 +88,5 @@ public class QuizTest {
 
     }
 }
+
+
