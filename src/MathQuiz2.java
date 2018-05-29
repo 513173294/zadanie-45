@@ -53,7 +53,7 @@ class MathQuiz2 {
 
     }
 
-    public int quest2(){
+    public int quest2() {
         if (question2() == true) {
             return 1;
         } else return 0;
@@ -66,14 +66,9 @@ class MathQuiz2 {
 
     }
 
-
-//    int quest3() {
-//        if (question3() == true) {
-//            return 1;
-//        } else return 0;
-//        int sum;
-//        sum = quest2 + quest3;
-//        System.out.println("wynik: " + sum + "/3");
-//    }s
-
+    public String pyt1() {
+        if (quest1()==1) return ("dobra odpowiedz na pierwsze pytanie");
+        return "zła odpowiedz na pierwsze pytanie";
     }
+}
+
